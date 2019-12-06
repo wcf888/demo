@@ -18,7 +18,7 @@ public class UserController {
      * @Param 
      * @return
      */
-    @LogAnno(operateType = "添加用户sss")
+    @LogAnno(operateType = "添加用户")
     @RequestMapping(value = "/user/add")
     public void add() {
         System.out.println("向数据库中添加用户!!");
